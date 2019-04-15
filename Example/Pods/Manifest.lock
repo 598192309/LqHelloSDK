@@ -1,5 +1,5 @@
 PODS:
-  - LqHelloSDK (0.1.0)
+  - LqHelloSDK (0.1.2)
 
 DEPENDENCIES:
   - LqHelloSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LqHelloSDK: d573751a570e391ace326f539a46eb22c08e08ee
+  LqHelloSDK: 3a46b052ad7fa8de9d9c627e74bb0583bfb08de9
 
 PODFILE CHECKSUM: 69b556ba436b7c6295d9567655d038e2835b3aea
 

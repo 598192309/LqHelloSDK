@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "HelloSDK.h"
-#import "HSViewController.h"
+#import "MyClass.h"
 #import "Person.h"
 
 FOUNDATION_EXPORT double LqHelloSDKVersionNumber;

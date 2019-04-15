@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D02C667D612B00F051BC0D16EB54003 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8740F6AB2FD548D0FF269BAC52A43732 /* Person.m */; };
+		04802ABB9882C1C7CD93023411A7A533 /* LqHelloSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAE7B033F030D3FFBB28CEC0E11079B /* LqHelloSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B356914467B409016C10582B84A4C3 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711F40B8CAB601C4523BDAEC7D366A7 /* MyClass.m */; };
 		2ED7FF8EDE9DE467BDD0EF61432B7849 /* Pods-LqHelloSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5371C2886FFC62BF1C5C0AC74CAD9 /* Pods-LqHelloSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		355736D6D440B6B9FBEE37803B0AF26F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		431F17A66A5BB9D4A59D6DAE48C499B7 /* Pods-LqHelloSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA3D9BDE382A428E88E2E0FCADF9FAD /* Pods-LqHelloSDK_Tests-dummy.m */; };
-		6DC4F6D18B1DB742C6BB777DD8FC0C4F /* HSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5901D767B022797E17DBA547F38682 /* HSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837EBADA634F4B27D9EB847960F790A9 /* Pods-LqHelloSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F432517ED31FEF89C97F389F7BB27F40 /* Pods-LqHelloSDK_Example-dummy.m */; };
+		87D4D2E23135E64104C45D922F98A41E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		8A87B4042651203170E52D4DB8BB1097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A30872230BFB9CC39CCDB72C381C39A2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA605923AC4E4F827E19F462B5E78BF /* ReplaceMe.m */; };
-		BE27B088A798B9F77C4F8A508E652B32 /* LqHelloSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8191C7DFA49189C651C54DBB377C3972 /* LqHelloSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF41FF3C579BE139A4CC8E217DE1352 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F001295B7F5A9E78F1EE9A152B25D4F0 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D83D51F35A7FB0ECA63DDBF04E604FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E09E2F6BEA28921C96ED622D95D3BC47 /* HelloSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DE67E731C2CC5FA94ADDF010BFDCBF /* HelloSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E178A2C454BB5FC7C0F5B1E543C8531E /* LqHelloSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79BA446684EA45839CEC89D3940C1A /* LqHelloSDK-dummy.m */; };
-		ED81F526130F5DF2F558BBA218AB9F2A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F535694EFB389DFEF56CFD6D5451B2E3 /* Info.plist */; };
+		A2451C30766455F9E575B8B98578A13A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC58D457BAEBDA1128472960EB5AF /* Person.m */; };
+		C64902F1BF4D4521F1138B2B5DD798BD /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4EABBA8F2EEE044B05E101AA6BFBA6 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5519011FE9C0AD9314048259EAA06E8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B98FD61C0C2F8EC847E0283AAFBE29C5 /* ReplaceMe.m */; };
+		FD02CC6A53893103C1CD8D9EE5EEFC26 /* LqHelloSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 542178A36E6152D6634BDCB7DB3973CB /* LqHelloSDK-dummy.m */; };
 		FDB7DEB22F412FC3A2AF6EC2EFC56649 /* Pods-LqHelloSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D264B3E13C608B18C01706B560B620FD /* Pods-LqHelloSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF46D9A730CB1A57541CD2EF8D284034 /* HelloSDK in Sources */ = {isa = PBXBuildFile; fileRef = 5013E5A928A00B5CC1249E79BCDDFCD4 /* HelloSDK */; };
-		FF63379B21D5657EF3042242C6EE2F92 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = EFAF770A042BC99CEA339EB5E1C53A52 /* module.modulemap */; };
+		FE67CC82BF663070CD1974999500F526 /* MyClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B9123CA07CD4C0498E9CCCE063CA98 /* MyClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +28,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A61599C5158B830ADEE7948DFD8BCB4C;
+			remoteGlobalIDString = 0C749F5C049EEC44B68E22D5FE4E1820;
 			remoteInfo = LqHelloSDK;
 		};
 		CC4618296D1D08B66E140F5BC1651ABD /* PBXContainerItemProxy */ = {
@@ -47,42 +44,39 @@
 		0E6B39F75DA717D9B6182E9B83D1224F /* Pods_LqHelloSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LqHelloSDK_Example.framework; path = "Pods-LqHelloSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		119C7DF919DE77D66B244950B991DA0F /* Pods-LqHelloSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19AA8086C132860C62BD4069D33F1608 /* Pods-LqHelloSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LqHelloSDK_Example.modulemap"; sourceTree = "<group>"; };
+		1E5406D30F6FBBE4D9608B1C0817EE95 /* LqHelloSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LqHelloSDK-Info.plist"; sourceTree = "<group>"; };
 		296BAD6FA1A3BE6F8F83961A5A7B9F27 /* Pods-LqHelloSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LqHelloSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A3CA616D24796C331DC7FFFE9339333 /* LqHelloSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LqHelloSDK.xcconfig; sourceTree = "<group>"; };
 		3340A3202562E84293A00E3B9A27A982 /* Pods-LqHelloSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		34D5371C2886FFC62BF1C5C0AC74CAD9 /* Pods-LqHelloSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LqHelloSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		366EC58D457BAEBDA1128472960EB5AF /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = LqHelloSDK/Classes/Person.m; sourceTree = "<group>"; };
+		36B9123CA07CD4C0498E9CCCE063CA98 /* MyClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyClass.h; path = LqHelloSDK/Classes/MyClass.h; sourceTree = "<group>"; };
 		399FDB426F2A95F15FD055B22850CD25 /* Pods-LqHelloSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LqHelloSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		3A611D848D34F1DA0E86BD616DC42AA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3F3CC3BC750BA578BE4871C94B474C72 /* LqHelloSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LqHelloSDK.xcconfig; sourceTree = "<group>"; };
-		4D2511DE785EEDE950279DF6EC1AB023 /* LqHelloSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LqHelloSDK.modulemap; sourceTree = "<group>"; };
-		5013E5A928A00B5CC1249E79BCDDFCD4 /* HelloSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = HelloSDK; sourceTree = "<group>"; };
 		52282E21045BF0CE63EB17C3E41D0AF5 /* Pods-LqHelloSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LqHelloSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53D662D680D0244864C07E95D0332869 /* LqHelloSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LqHelloSDK-Info.plist"; sourceTree = "<group>"; };
+		542178A36E6152D6634BDCB7DB3973CB /* LqHelloSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LqHelloSDK-dummy.m"; sourceTree = "<group>"; };
+		5D4EABBA8F2EEE044B05E101AA6BFBA6 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = LqHelloSDK/Classes/Person.h; sourceTree = "<group>"; };
+		6711F40B8CAB601C4523BDAEC7D366A7 /* MyClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyClass.m; path = LqHelloSDK/Classes/MyClass.m; sourceTree = "<group>"; };
 		68778DD31C8A1E27EE1F86B1CA2CB15F /* Pods-LqHelloSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		71DE67E731C2CC5FA94ADDF010BFDCBF /* HelloSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HelloSDK.h; sourceTree = "<group>"; };
+		727A1AC00901150473068484B3BFB852 /* LqHelloSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LqHelloSDK.modulemap; sourceTree = "<group>"; };
 		7C91AE94BEBF461BCFC808A2D34801B0 /* Pods_LqHelloSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LqHelloSDK_Tests.framework; path = "Pods-LqHelloSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8191C7DFA49189C651C54DBB377C3972 /* LqHelloSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-umbrella.h"; sourceTree = "<group>"; };
-		8740F6AB2FD548D0FF269BAC52A43732 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = LqHelloSDK/Classes/Person.m; sourceTree = "<group>"; };
-		983E1C5F66420D26A1F9C86B4AD97863 /* LqHelloSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-prefix.pch"; sourceTree = "<group>"; };
 		99ED2E9540C6AA78A326A79C12F049DD /* Pods-LqHelloSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LqHelloSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAE7B033F030D3FFBB28CEC0E11079B /* LqHelloSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-umbrella.h"; sourceTree = "<group>"; };
 		A2D685BDC10D97B61BB20186DC677BF2 /* Pods-LqHelloSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6A6E26E1FB53C03AB05530DFF8AEF56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LqHelloSDK.framework; path = LqHelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE031DA0E86B0F29E522A672AD8487EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEFABBCF71F19A8C974937045505B9EC /* LqHelloSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-prefix.pch"; sourceTree = "<group>"; };
+		AF24B56A49B09FE601A4B7E79006C9FE /* LqHelloSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LqHelloSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B98FD61C0C2F8EC847E0283AAFBE29C5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LqHelloSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC5901D767B022797E17DBA547F38682 /* HSViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSViewController.h; sourceTree = "<group>"; };
 		D264B3E13C608B18C01706B560B620FD /* Pods-LqHelloSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LqHelloSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		DAA3D9BDE382A428E88E2E0FCADF9FAD /* Pods-LqHelloSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LqHelloSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		DC4BF1CEE3FB6A96E243277868AC1654 /* Pods-LqHelloSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0660E12A48E7EE0010D181051AB2F23 /* Pods-LqHelloSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		E64B098B613D3A58E337F7A8B296C2B5 /* Pods-LqHelloSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EFAF770A042BC99CEA339EB5E1C53A52 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		F001295B7F5A9E78F1EE9A152B25D4F0 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = LqHelloSDK/Classes/Person.h; sourceTree = "<group>"; };
+		F0B3698D875C14A570F9B5EF04F7FF3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F432517ED31FEF89C97F389F7BB27F40 /* Pods-LqHelloSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LqHelloSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		F535694EFB389DFEF56CFD6D5451B2E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7EE70F6BF2D25CB3E3791AAC1639302 /* LqHelloSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LqHelloSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8F9D753777DA2C13832EE86AB5BD534 /* Pods-LqHelloSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		FCA605923AC4E4F827E19F462B5E78BF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LqHelloSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		FD79BA446684EA45839CEC89D3940C1A /* LqHelloSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LqHelloSDK-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +88,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70FE674B6F60C72879F96D75BEBE5E59 /* Frameworks */ = {
+		7B0D5949A37C36D27607B967F8724099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83D51F35A7FB0ECA63DDBF04E604FDE /* Foundation.framework in Frameworks */,
+				87D4D2E23135E64104C45D922F98A41E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,31 +116,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1A8E17809F523CFD1182538C13F952EB /* Modules */ = {
+		28E4DA0738AAAC981A7F2F17323A576D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EFAF770A042BC99CEA339EB5E1C53A52 /* module.modulemap */,
+				F0B3698D875C14A570F9B5EF04F7FF3B /* LICENSE */,
+				AF24B56A49B09FE601A4B7E79006C9FE /* LqHelloSDK.podspec */,
+				A6A6E26E1FB53C03AB05530DFF8AEF56 /* README.md */,
 			);
-			name = Modules;
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		215F620ED6C0C76D76C622E2BBDD1061 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0C7F84A69DFC1A2AE33F29D71130B28 /* LqHelloSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		23CCE5E7D4DB9E464AFD936A58A9A688 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				71DE67E731C2CC5FA94ADDF010BFDCBF /* HelloSDK.h */,
-				CC5901D767B022797E17DBA547F38682 /* HSViewController.h */,
-			);
-			name = Headers;
-			path = Headers;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2DAE41FBF2DD65229666E379CD078DCB /* Pods-LqHelloSDK_Tests */ = {
@@ -165,18 +142,33 @@
 			path = "Target Support Files/Pods-LqHelloSDK_Tests";
 			sourceTree = "<group>";
 		};
-		64811F86C061B8BEEBDB937F8DED1C6E /* Support Files */ = {
+		4984C4598AF6C1FFEA783F8E0D25F1C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D2511DE785EEDE950279DF6EC1AB023 /* LqHelloSDK.modulemap */,
-				3F3CC3BC750BA578BE4871C94B474C72 /* LqHelloSDK.xcconfig */,
-				FD79BA446684EA45839CEC89D3940C1A /* LqHelloSDK-dummy.m */,
-				53D662D680D0244864C07E95D0332869 /* LqHelloSDK-Info.plist */,
-				983E1C5F66420D26A1F9C86B4AD97863 /* LqHelloSDK-prefix.pch */,
-				8191C7DFA49189C651C54DBB377C3972 /* LqHelloSDK-umbrella.h */,
+				727A1AC00901150473068484B3BFB852 /* LqHelloSDK.modulemap */,
+				2A3CA616D24796C331DC7FFFE9339333 /* LqHelloSDK.xcconfig */,
+				542178A36E6152D6634BDCB7DB3973CB /* LqHelloSDK-dummy.m */,
+				1E5406D30F6FBBE4D9608B1C0817EE95 /* LqHelloSDK-Info.plist */,
+				AEFABBCF71F19A8C974937045505B9EC /* LqHelloSDK-prefix.pch */,
+				9EAE7B033F030D3FFBB28CEC0E11079B /* LqHelloSDK-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LqHelloSDK";
+			sourceTree = "<group>";
+		};
+		5F495AEE9316C38A635A0B9502EE1FC6 /* LqHelloSDK */ = {
+			isa = PBXGroup;
+			children = (
+				36B9123CA07CD4C0498E9CCCE063CA98 /* MyClass.h */,
+				6711F40B8CAB601C4523BDAEC7D366A7 /* MyClass.m */,
+				5D4EABBA8F2EEE044B05E101AA6BFBA6 /* Person.h */,
+				366EC58D457BAEBDA1128472960EB5AF /* Person.m */,
+				B98FD61C0C2F8EC847E0283AAFBE29C5 /* ReplaceMe.m */,
+				28E4DA0738AAAC981A7F2F17323A576D /* Pod */,
+				4984C4598AF6C1FFEA783F8E0D25F1C8 /* Support Files */,
+			);
+			name = LqHelloSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6E608C8A39042574AFD4382D6371F56A /* Pods-LqHelloSDK_Example */ = {
@@ -214,47 +206,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBC18CE76E2CC35169B70B45B7F2D799 /* HelloSDK.framework */ = {
-			isa = PBXGroup;
-			children = (
-				5013E5A928A00B5CC1249E79BCDDFCD4 /* HelloSDK */,
-				F535694EFB389DFEF56CFD6D5451B2E3 /* Info.plist */,
-				23CCE5E7D4DB9E464AFD936A58A9A688 /* Headers */,
-				1A8E17809F523CFD1182538C13F952EB /* Modules */,
-			);
-			name = HelloSDK.framework;
-			path = LqHelloSDK/Classes/HelloSDK.framework;
-			sourceTree = "<group>";
-		};
-		C0C7F84A69DFC1A2AE33F29D71130B28 /* LqHelloSDK */ = {
-			isa = PBXGroup;
-			children = (
-				F001295B7F5A9E78F1EE9A152B25D4F0 /* Person.h */,
-				8740F6AB2FD548D0FF269BAC52A43732 /* Person.m */,
-				FCA605923AC4E4F827E19F462B5E78BF /* ReplaceMe.m */,
-				BBC18CE76E2CC35169B70B45B7F2D799 /* HelloSDK.framework */,
-				CD6FAE2B7A1DA5738CB6EAD3A714585E /* Pod */,
-				64811F86C061B8BEEBDB937F8DED1C6E /* Support Files */,
-			);
-			name = LqHelloSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CD6FAE2B7A1DA5738CB6EAD3A714585E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3A611D848D34F1DA0E86BD616DC42AA1 /* LICENSE */,
-				F7EE70F6BF2D25CB3E3791AAC1639302 /* LqHelloSDK.podspec */,
-				AE031DA0E86B0F29E522A672AD8487EE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				215F620ED6C0C76D76C622E2BBDD1061 /* Development Pods */,
+				F0724729285C27A380FD14B520333599 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BAC81D1B3F890649439B3E5E818F9D51 /* Products */,
 				0AC824C6509D7DE4B382FFF297469E85 /* Targets Support Files */,
@@ -269,6 +225,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0724729285C27A380FD14B520333599 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F495AEE9316C38A635A0B9502EE1FC6 /* LqHelloSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -280,6 +244,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61E6CA140A9C78F2133BBAAAD34B50EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04802ABB9882C1C7CD93023411A7A533 /* LqHelloSDK-umbrella.h in Headers */,
+				FE67CC82BF663070CD1974999500F526 /* MyClass.h in Headers */,
+				C64902F1BF4D4521F1138B2B5DD798BD /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D26059A0EDBAECAB5846129488C21EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,20 +262,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09954C2D21C0A22AC8ADCA680C4D6A5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E09E2F6BEA28921C96ED622D95D3BC47 /* HelloSDK.h in Headers */,
-				6DC4F6D18B1DB742C6BB777DD8FC0C4F /* HSViewController.h in Headers */,
-				BE27B088A798B9F77C4F8A508E652B32 /* LqHelloSDK-umbrella.h in Headers */,
-				CBF41FF3C579BE139A4CC8E217DE1352 /* Person.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0C749F5C049EEC44B68E22D5FE4E1820 /* LqHelloSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD3D1EC3C02735B9C9B75410079308C /* Build configuration list for PBXNativeTarget "LqHelloSDK" */;
+			buildPhases = (
+				61E6CA140A9C78F2133BBAAAD34B50EF /* Headers */,
+				4E6E1BE39A9512F9AD637B44CCC89B13 /* Sources */,
+				7B0D5949A37C36D27607B967F8724099 /* Frameworks */,
+				B804AECD15C86A729994E03AE0C1653C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LqHelloSDK;
+			productName = LqHelloSDK;
+			productReference = AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		65B162557299186E7FFA0C1A9B4EEDA1 /* Pods-LqHelloSDK_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB5DFFF369AF0E18799F740CC9C0543 /* Build configuration list for PBXNativeTarget "Pods-LqHelloSDK_Tests" */;
@@ -319,24 +300,6 @@
 			name = "Pods-LqHelloSDK_Tests";
 			productName = "Pods-LqHelloSDK_Tests";
 			productReference = 7C91AE94BEBF461BCFC808A2D34801B0 /* Pods_LqHelloSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A61599C5158B830ADEE7948DFD8BCB4C /* LqHelloSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4154E901711F589D9C8DD2B604D73349 /* Build configuration list for PBXNativeTarget "LqHelloSDK" */;
-			buildPhases = (
-				F09954C2D21C0A22AC8ADCA680C4D6A5 /* Headers */,
-				FCC4DF44C7E0EE409BEC44AF8DAC10F3 /* Sources */,
-				70FE674B6F60C72879F96D75BEBE5E59 /* Frameworks */,
-				279D592DFBA594B69CA2782190A5AE8E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LqHelloSDK;
-			productName = LqHelloSDK;
-			productReference = AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D179481100DE51246F0E44F41D1FAEB7 /* Pods-LqHelloSDK_Example */ = {
@@ -379,7 +342,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A61599C5158B830ADEE7948DFD8BCB4C /* LqHelloSDK */,
+				0C749F5C049EEC44B68E22D5FE4E1820 /* LqHelloSDK */,
 				D179481100DE51246F0E44F41D1FAEB7 /* Pods-LqHelloSDK_Example */,
 				65B162557299186E7FFA0C1A9B4EEDA1 /* Pods-LqHelloSDK_Tests */,
 			);
@@ -394,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279D592DFBA594B69CA2782190A5AE8E /* Resources */ = {
+		B804AECD15C86A729994E03AE0C1653C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -419,24 +382,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4E6E1BE39A9512F9AD637B44CCC89B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD02CC6A53893103C1CD8D9EE5EEFC26 /* LqHelloSDK-dummy.m in Sources */,
+				08B356914467B409016C10582B84A4C3 /* MyClass.m in Sources */,
+				A2451C30766455F9E575B8B98578A13A /* Person.m in Sources */,
+				E5519011FE9C0AD9314048259EAA06E8 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81F1A3B5EB21E9A8329CFB1DB754CB3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				837EBADA634F4B27D9EB847960F790A9 /* Pods-LqHelloSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC4DF44C7E0EE409BEC44AF8DAC10F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF46D9A730CB1A57541CD2EF8D284034 /* HelloSDK in Sources */,
-				ED81F526130F5DF2F558BBA218AB9F2A /* Info.plist in Sources */,
-				E178A2C454BB5FC7C0F5B1E543C8531E /* LqHelloSDK-dummy.m in Sources */,
-				FF63379B21D5657EF3042242C6EE2F92 /* module.modulemap in Sources */,
-				0D02C667D612B00F051BC0D16EB54003 /* Person.m in Sources */,
-				A30872230BFB9CC39CCDB72C381C39A2 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +413,7 @@
 		6A2C54FA1B491FB2819FC2794C1D14CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LqHelloSDK;
-			target = A61599C5158B830ADEE7948DFD8BCB4C /* LqHelloSDK */;
+			target = 0C749F5C049EEC44B68E22D5FE4E1820 /* LqHelloSDK */;
 			targetProxy = 486031A8D093735BB0EA6988A9F78D5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -518,6 +479,37 @@
 			};
 			name = Release;
 		};
+		0789E5D011041623F18E33A719F622F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3CA616D24796C331DC7FFFE9339333 /* LqHelloSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
+				PRODUCT_MODULE_NAME = LqHelloSDK;
+				PRODUCT_NAME = LqHelloSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0B76F9D365C9A515732899484075DBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68778DD31C8A1E27EE1F86B1CA2CB15F /* Pods-LqHelloSDK_Tests.debug.xcconfig */;
@@ -545,6 +537,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E2E71F38BDD56105441293F02302793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3CA616D24796C331DC7FFFE9339333 /* LqHelloSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
+				PRODUCT_MODULE_NAME = LqHelloSDK;
+				PRODUCT_NAME = LqHelloSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -682,67 +704,6 @@
 			};
 			name = Release;
 		};
-		6A758358776C1382EF7409F9A288944A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3CC3BC750BA578BE4871C94B474C72 /* LqHelloSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
-				PRODUCT_MODULE_NAME = LqHelloSDK;
-				PRODUCT_NAME = LqHelloSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6C615AEE5C7C6B527F5ECE214922DD31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3CC3BC750BA578BE4871C94B474C72 /* LqHelloSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
-				PRODUCT_MODULE_NAME = LqHelloSDK;
-				PRODUCT_NAME = LqHelloSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E8B748C56A9F6F5EA980A9D83E7158DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E64B098B613D3A58E337F7A8B296C2B5 /* Pods-LqHelloSDK_Example.release.xcconfig */;
@@ -789,15 +750,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4154E901711F589D9C8DD2B604D73349 /* Build configuration list for PBXNativeTarget "LqHelloSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A758358776C1382EF7409F9A288944A /* Debug */,
-				6C615AEE5C7C6B527F5ECE214922DD31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -812,6 +764,15 @@
 			buildConfigurations = (
 				0B76F9D365C9A515732899484075DBCD /* Debug */,
 				4AA950D27E670A908777F5194A955B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD3D1EC3C02735B9C9B75410079308C /* Build configuration list for PBXNativeTarget "LqHelloSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2E71F38BDD56105441293F02302793 /* Debug */,
+				0789E5D011041623F18E33A719F622F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

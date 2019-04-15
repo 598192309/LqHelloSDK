@@ -1,6 +1,6 @@
 {
   "name": "LqHelloSDK",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Test summary.",
   "description": "范德萨发撒发生地方方式方法",
   "homepage": "https://github.com/598192309/LqHelloSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/598192309/LqHelloSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
