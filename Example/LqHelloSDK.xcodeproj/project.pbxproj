@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A0BAE50BAD82F63C02970A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5287DB8F278F1B3A6545A68E /* LqHelloSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LqHelloSDK.podspec; path = ../LqHelloSDK.podspec; sourceTree = "<group>"; };
+		2A0BAE50BAD82F63C02970A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5287DB8F278F1B3A6545A68E /* LqHelloSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LqHelloSDK.podspec; path = ../LqHelloSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LqHelloSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LqHelloSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		914F176BDF5094FAB3BDDABA /* Pods-LqHelloSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqHelloSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3C012C3CAD43E273EF0DF71 /* Pods-LqHelloSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqHelloSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LqHelloSDK_Example/Pods-LqHelloSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C786C7675342D15590699576 /* Pods_LqHelloSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqHelloSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF57AB86E1696B3EE91D7D0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF57AB86E1696B3EE91D7D0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7BF2DCCABB9ED5AB408E0AC /* Pods-LqHelloSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LqHelloSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7E86D89D85CF32863FE6E5 /* Pods_LqHelloSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LqHelloSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				E7BF2DCCABB9ED5AB408E0AC /* Pods-LqHelloSDK_Tests.debug.xcconfig */,
 				914F176BDF5094FAB3BDDABA /* Pods-LqHelloSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
