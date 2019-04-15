@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24951D7135C0211C1B78BE0D146F1151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		29B740A70F1D918B804F49B7CE0FEC30 /* LqHelloSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF710C7542F1DE39541EF1322FF4CEF /* LqHelloSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED7FF8EDE9DE467BDD0EF61432B7849 /* Pods-LqHelloSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5371C2886FFC62BF1C5C0AC74CAD9 /* Pods-LqHelloSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355736D6D440B6B9FBEE37803B0AF26F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		431F17A66A5BB9D4A59D6DAE48C499B7 /* Pods-LqHelloSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA3D9BDE382A428E88E2E0FCADF9FAD /* Pods-LqHelloSDK_Tests-dummy.m */; };
+		5D71FB8BD150F72E69E9FFC83AA6D9A9 /* LqHelloSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83117F772E4C9511EFC6A02F8F2B17 /* LqHelloSDK-dummy.m */; };
+		71C85DA789F3773304C4237060E980AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3446C32DEC5F7E4A2070724E31BB11EB /* Person.m */; };
+		837EBADA634F4B27D9EB847960F790A9 /* Pods-LqHelloSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F432517ED31FEF89C97F389F7BB27F40 /* Pods-LqHelloSDK_Example-dummy.m */; };
+		8A87B4042651203170E52D4DB8BB1097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9E5D6D699735C6D756C9340CDE8B541A /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C39AD847E778A8CCAA54EB2638CAE39 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C255F7C7B1D61F24F184C2B5884FCF87 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE84EB2F978B17AC41F15FC417E5FB9 /* ReplaceMe.m */; };
+		FDB7DEB22F412FC3A2AF6EC2EFC56649 /* Pods-LqHelloSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D264B3E13C608B18C01706B560B620FD /* Pods-LqHelloSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486031A8D093735BB0EA6988A9F78D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D226C280011277C9026FBB7FC57BD223;
+			remoteInfo = LqHelloSDK;
+		};
+		CC4618296D1D08B66E140F5BC1651ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D179481100DE51246F0E44F41D1FAEB7;
+			remoteInfo = "Pods-LqHelloSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6B39F75DA717D9B6182E9B83D1224F /* Pods_LqHelloSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LqHelloSDK_Example.framework; path = "Pods-LqHelloSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119C7DF919DE77D66B244950B991DA0F /* Pods-LqHelloSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		19AA8086C132860C62BD4069D33F1608 /* Pods-LqHelloSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LqHelloSDK_Example.modulemap"; sourceTree = "<group>"; };
+		1DCC9358CA49E7E9826EAC1537547290 /* LqHelloSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LqHelloSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		296BAD6FA1A3BE6F8F83961A5A7B9F27 /* Pods-LqHelloSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LqHelloSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3340A3202562E84293A00E3B9A27A982 /* Pods-LqHelloSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3446C32DEC5F7E4A2070724E31BB11EB /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = LqHelloSDK/Classes/Person.m; sourceTree = "<group>"; };
+		34D5371C2886FFC62BF1C5C0AC74CAD9 /* Pods-LqHelloSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LqHelloSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		399FDB426F2A95F15FD055B22850CD25 /* Pods-LqHelloSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LqHelloSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		3C39AD847E778A8CCAA54EB2638CAE39 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = LqHelloSDK/Classes/Person.h; sourceTree = "<group>"; };
+		4A83117F772E4C9511EFC6A02F8F2B17 /* LqHelloSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LqHelloSDK-dummy.m"; sourceTree = "<group>"; };
+		52282E21045BF0CE63EB17C3E41D0AF5 /* Pods-LqHelloSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LqHelloSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68778DD31C8A1E27EE1F86B1CA2CB15F /* Pods-LqHelloSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68D4664B8003CEE7C8258A8EF19F047D /* LqHelloSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LqHelloSDK.xcconfig; sourceTree = "<group>"; };
+		6BE84EB2F978B17AC41F15FC417E5FB9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LqHelloSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6FF710C7542F1DE39541EF1322FF4CEF /* LqHelloSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-umbrella.h"; sourceTree = "<group>"; };
+		71A49027D2596068D30BBAA095CF2BDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C91AE94BEBF461BCFC808A2D34801B0 /* Pods_LqHelloSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LqHelloSDK_Tests.framework; path = "Pods-LqHelloSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F242D38649C6A85204FA09D19877F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97D7774F7BB93AE2172FE1EC58CBC83C /* LqHelloSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LqHelloSDK-prefix.pch"; sourceTree = "<group>"; };
+		99ED2E9540C6AA78A326A79C12F049DD /* Pods-LqHelloSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LqHelloSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D685BDC10D97B61BB20186DC677BF2 /* Pods-LqHelloSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LqHelloSDK.framework; path = LqHelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F06711E899B3B607AF023BB83C386 /* LqHelloSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LqHelloSDK-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D264B3E13C608B18C01706B560B620FD /* Pods-LqHelloSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LqHelloSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		DAA3D9BDE382A428E88E2E0FCADF9FAD /* Pods-LqHelloSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LqHelloSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		DC4BF1CEE3FB6A96E243277868AC1654 /* Pods-LqHelloSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0660E12A48E7EE0010D181051AB2F23 /* Pods-LqHelloSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		E64B098B613D3A58E337F7A8B296C2B5 /* Pods-LqHelloSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LqHelloSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F432517ED31FEF89C97F389F7BB27F40 /* Pods-LqHelloSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LqHelloSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F8F9D753777DA2C13832EE86AB5BD534 /* Pods-LqHelloSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LqHelloSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		FFBC92F17A3170797FA28911EEA4419D /* LqHelloSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LqHelloSDK.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168DE2C97A8BA7AFE2A495CDFDA36F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A87B4042651203170E52D4DB8BB1097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A73C751FF42EA978939F417A7CE916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24951D7135C0211C1B78BE0D146F1151 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F29E05723CD428202D9BE04C67895A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355736D6D440B6B9FBEE37803B0AF26F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC824C6509D7DE4B382FFF297469E85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E608C8A39042574AFD4382D6371F56A /* Pods-LqHelloSDK_Example */,
+				2DAE41FBF2DD65229666E379CD078DCB /* Pods-LqHelloSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		158AE7A15A5945889670CA148AECBD0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC92F17A3170797FA28911EEA4419D /* LqHelloSDK.modulemap */,
+				68D4664B8003CEE7C8258A8EF19F047D /* LqHelloSDK.xcconfig */,
+				4A83117F772E4C9511EFC6A02F8F2B17 /* LqHelloSDK-dummy.m */,
+				C97F06711E899B3B607AF023BB83C386 /* LqHelloSDK-Info.plist */,
+				97D7774F7BB93AE2172FE1EC58CBC83C /* LqHelloSDK-prefix.pch */,
+				6FF710C7542F1DE39541EF1322FF4CEF /* LqHelloSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LqHelloSDK";
+			sourceTree = "<group>";
+		};
+		2DAE41FBF2DD65229666E379CD078DCB /* Pods-LqHelloSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				399FDB426F2A95F15FD055B22850CD25 /* Pods-LqHelloSDK_Tests.modulemap */,
+				52282E21045BF0CE63EB17C3E41D0AF5 /* Pods-LqHelloSDK_Tests-acknowledgements.markdown */,
+				A2D685BDC10D97B61BB20186DC677BF2 /* Pods-LqHelloSDK_Tests-acknowledgements.plist */,
+				DAA3D9BDE382A428E88E2E0FCADF9FAD /* Pods-LqHelloSDK_Tests-dummy.m */,
+				E0660E12A48E7EE0010D181051AB2F23 /* Pods-LqHelloSDK_Tests-Info.plist */,
+				34D5371C2886FFC62BF1C5C0AC74CAD9 /* Pods-LqHelloSDK_Tests-umbrella.h */,
+				68778DD31C8A1E27EE1F86B1CA2CB15F /* Pods-LqHelloSDK_Tests.debug.xcconfig */,
+				119C7DF919DE77D66B244950B991DA0F /* Pods-LqHelloSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-LqHelloSDK_Tests";
+			path = "Target Support Files/Pods-LqHelloSDK_Tests";
+			sourceTree = "<group>";
+		};
+		4F8C158F620B3D44E74339F3220DFCD8 /* LqHelloSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C39AD847E778A8CCAA54EB2638CAE39 /* Person.h */,
+				3446C32DEC5F7E4A2070724E31BB11EB /* Person.m */,
+				6BE84EB2F978B17AC41F15FC417E5FB9 /* ReplaceMe.m */,
+				D6485AE66FCA4B336A00F05EC835A22C /* Pod */,
+				158AE7A15A5945889670CA148AECBD0D /* Support Files */,
+			);
+			name = LqHelloSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E608C8A39042574AFD4382D6371F56A /* Pods-LqHelloSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				19AA8086C132860C62BD4069D33F1608 /* Pods-LqHelloSDK_Example.modulemap */,
+				296BAD6FA1A3BE6F8F83961A5A7B9F27 /* Pods-LqHelloSDK_Example-acknowledgements.markdown */,
+				3340A3202562E84293A00E3B9A27A982 /* Pods-LqHelloSDK_Example-acknowledgements.plist */,
+				F432517ED31FEF89C97F389F7BB27F40 /* Pods-LqHelloSDK_Example-dummy.m */,
+				99ED2E9540C6AA78A326A79C12F049DD /* Pods-LqHelloSDK_Example-frameworks.sh */,
+				F8F9D753777DA2C13832EE86AB5BD534 /* Pods-LqHelloSDK_Example-Info.plist */,
+				D264B3E13C608B18C01706B560B620FD /* Pods-LqHelloSDK_Example-umbrella.h */,
+				DC4BF1CEE3FB6A96E243277868AC1654 /* Pods-LqHelloSDK_Example.debug.xcconfig */,
+				E64B098B613D3A58E337F7A8B296C2B5 /* Pods-LqHelloSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-LqHelloSDK_Example";
+			path = "Target Support Files/Pods-LqHelloSDK_Example";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BAC81D1B3F890649439B3E5E818F9D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */,
+				0E6B39F75DA717D9B6182E9B83D1224F /* Pods_LqHelloSDK_Example.framework */,
+				7C91AE94BEBF461BCFC808A2D34801B0 /* Pods_LqHelloSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB5D3EFE0E989ADC3DED4EC36A482B84 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BAC81D1B3F890649439B3E5E818F9D51 /* Products */,
+				0AC824C6509D7DE4B382FFF297469E85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6485AE66FCA4B336A00F05EC835A22C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82F242D38649C6A85204FA09D19877F0 /* LICENSE */,
+				1DCC9358CA49E7E9826EAC1537547290 /* LqHelloSDK.podspec */,
+				71A49027D2596068D30BBAA095CF2BDA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB5D3EFE0E989ADC3DED4EC36A482B84 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F8C158F620B3D44E74339F3220DFCD8 /* LqHelloSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41FB74B951DDEFF6BC0D038FA453112E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7DEB22F412FC3A2AF6EC2EFC56649 /* Pods-LqHelloSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D26059A0EDBAECAB5846129488C21EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED7FF8EDE9DE467BDD0EF61432B7849 /* Pods-LqHelloSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF31F8530F4E6D77A77D6124EA895DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B740A70F1D918B804F49B7CE0FEC30 /* LqHelloSDK-umbrella.h in Headers */,
+				9E5D6D699735C6D756C9340CDE8B541A /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65B162557299186E7FFA0C1A9B4EEDA1 /* Pods-LqHelloSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB5DFFF369AF0E18799F740CC9C0543 /* Build configuration list for PBXNativeTarget "Pods-LqHelloSDK_Tests" */;
+			buildPhases = (
+				7D26059A0EDBAECAB5846129488C21EC /* Headers */,
+				070628D13FB7519AD948BD3FA79B88D4 /* Sources */,
+				B5F29E05723CD428202D9BE04C67895A /* Frameworks */,
+				0C85667B045861252E405938E060F50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C112781CA1F695AD8628AF5F0AAA57 /* PBXTargetDependency */,
+			);
+			name = "Pods-LqHelloSDK_Tests";
+			productName = "Pods-LqHelloSDK_Tests";
+			productReference = 7C91AE94BEBF461BCFC808A2D34801B0 /* Pods_LqHelloSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D179481100DE51246F0E44F41D1FAEB7 /* Pods-LqHelloSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC1190540D8620B3B74D6D5A17C41FC /* Build configuration list for PBXNativeTarget "Pods-LqHelloSDK_Example" */;
+			buildPhases = (
+				41FB74B951DDEFF6BC0D038FA453112E /* Headers */,
+				81F1A3B5EB21E9A8329CFB1DB754CB3A /* Sources */,
+				168DE2C97A8BA7AFE2A495CDFDA36F93 /* Frameworks */,
+				E603B99477B495E4F4AD308AA9506188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2C54FA1B491FB2819FC2794C1D14CA /* PBXTargetDependency */,
+			);
+			name = "Pods-LqHelloSDK_Example";
+			productName = "Pods-LqHelloSDK_Example";
+			productReference = 0E6B39F75DA717D9B6182E9B83D1224F /* Pods_LqHelloSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D226C280011277C9026FBB7FC57BD223 /* LqHelloSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D799C0F6A6485641414B67AFC28E5F2 /* Build configuration list for PBXNativeTarget "LqHelloSDK" */;
+			buildPhases = (
+				BEF31F8530F4E6D77A77D6124EA895DC /* Headers */,
+				B03CC3019449963F80E4732DEB417F28 /* Sources */,
+				B1A73C751FF42EA978939F417A7CE916 /* Frameworks */,
+				E4E8434FBF0B25F9C74568BD1CA37A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LqHelloSDK;
+			productName = LqHelloSDK;
+			productReference = AC38FA85248632C9647D84375D83A4B4 /* LqHelloSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BAC81D1B3F890649439B3E5E818F9D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D226C280011277C9026FBB7FC57BD223 /* LqHelloSDK */,
+				D179481100DE51246F0E44F41D1FAEB7 /* Pods-LqHelloSDK_Example */,
+				65B162557299186E7FFA0C1A9B4EEDA1 /* Pods-LqHelloSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C85667B045861252E405938E060F50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8434FBF0B25F9C74568BD1CA37A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E603B99477B495E4F4AD308AA9506188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070628D13FB7519AD948BD3FA79B88D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431F17A66A5BB9D4A59D6DAE48C499B7 /* Pods-LqHelloSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F1A3B5EB21E9A8329CFB1DB754CB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837EBADA634F4B27D9EB847960F790A9 /* Pods-LqHelloSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03CC3019449963F80E4732DEB417F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D71FB8BD150F72E69E9FFC83AA6D9A9 /* LqHelloSDK-dummy.m in Sources */,
+				71C85DA789F3773304C4237060E980AA /* Person.m in Sources */,
+				C255F7C7B1D61F24F184C2B5884FCF87 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C112781CA1F695AD8628AF5F0AAA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LqHelloSDK_Example";
+			target = D179481100DE51246F0E44F41D1FAEB7 /* Pods-LqHelloSDK_Example */;
+			targetProxy = CC4618296D1D08B66E140F5BC1651ABD /* PBXContainerItemProxy */;
+		};
+		6A2C54FA1B491FB2819FC2794C1D14CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LqHelloSDK;
+			target = D226C280011277C9026FBB7FC57BD223 /* LqHelloSDK */;
+			targetProxy = 486031A8D093735BB0EA6988A9F78D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0B76F9D365C9A515732899484075DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68778DD31C8A1E27EE1F86B1CA2CB15F /* Pods-LqHelloSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3406A7468F517CE47625EBC844DBC3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D4664B8003CEE7C8258A8EF19F047D /* LqHelloSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
+				PRODUCT_MODULE_NAME = LqHelloSDK;
+				PRODUCT_NAME = LqHelloSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		385B851A3A1D03DD0A16DE8278D78A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D4664B8003CEE7C8258A8EF19F047D /* LqHelloSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LqHelloSDK/LqHelloSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LqHelloSDK/LqHelloSDK.modulemap";
+				PRODUCT_MODULE_NAME = LqHelloSDK;
+				PRODUCT_NAME = LqHelloSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49754763719332A2C5381EE66DDB4051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4BF1CEE3FB6A96E243277868AC1654 /* Pods-LqHelloSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LqHelloSDK_Example/Pods-LqHelloSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LqHelloSDK_Example/Pods-LqHelloSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA950D27E670A908777F5194A955B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119C7DF919DE77D66B244950B991DA0F /* Pods-LqHelloSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LqHelloSDK_Tests/Pods-LqHelloSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8B748C56A9F6F5EA980A9D83E7158DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64B098B613D3A58E337F7A8B296C2B5 /* Pods-LqHelloSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LqHelloSDK_Example/Pods-LqHelloSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LqHelloSDK_Example/Pods-LqHelloSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D799C0F6A6485641414B67AFC28E5F2 /* Build configuration list for PBXNativeTarget "LqHelloSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3406A7468F517CE47625EBC844DBC3A6 /* Debug */,
+				385B851A3A1D03DD0A16DE8278D78A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC1190540D8620B3B74D6D5A17C41FC /* Build configuration list for PBXNativeTarget "Pods-LqHelloSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49754763719332A2C5381EE66DDB4051 /* Debug */,
+				E8B748C56A9F6F5EA980A9D83E7158DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB5DFFF369AF0E18799F740CC9C0543 /* Build configuration list for PBXNativeTarget "Pods-LqHelloSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B76F9D365C9A515732899484075DBCD /* Debug */,
+				4AA950D27E670A908777F5194A955B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

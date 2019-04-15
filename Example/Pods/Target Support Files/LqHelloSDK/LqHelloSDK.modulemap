@@ -1,0 +1,6 @@
+framework module LqHelloSDK {
+  umbrella header "LqHelloSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
